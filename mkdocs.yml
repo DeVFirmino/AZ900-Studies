@@ -42,4 +42,20 @@ nav:
       - Exam cheat sheet: 02-architecture-and-services/13-cheat-sheet.md
       - Practice quiz: 02-architecture-and-services/14-practice-quiz.md
       - Answer key: 02-architecture-and-services/15-answer-key.md
-  - Management and Governance: 03-management-and-governance/index.md
+  - Management and Governance:
+      - Section overview: 03-management-and-governance/index.md
+      - Cost factors and Pricing Calculator: 03-management-and-governance/01-cost-factors-and-pricing-calculator.md
+      - Cost Management and budgets: 03-management-and-governance/02-cost-management-budgets-and-analysis.md
+      - Tags and cost organization: 03-management-and-governance/03-tags-and-cost-organization.md
+      - Microsoft Purview: 03-management-and-governance/04-microsoft-purview.md
+      - Azure Policy and initiatives: 03-management-and-governance/05-azure-policy-and-initiatives.md
+      - Resource locks: 03-management-and-governance/06-resource-locks.md
+      - Portal, Cloud Shell, CLI, and PowerShell: 03-management-and-governance/07-portal-cloud-shell-cli-powershell.md
+      - Azure Arc: 03-management-and-governance/08-azure-arc.md
+      - IaC, ARM templates, and Bicep: 03-management-and-governance/09-iac-arm-templates-and-bicep.md
+      - Azure Advisor: 03-management-and-governance/10-azure-advisor.md
+      - Azure Service Health: 03-management-and-governance/11-azure-service-health.md
+      - Azure Monitor: 03-management-and-governance/12-azure-monitor.md
+      - Exam cheat sheet: 03-management-and-governance/13-cheat-sheet.md
+      - Practice quiz: 03-management-and-governance/14-practice-quiz.md
+      - Answer key: 03-management-and-governance/15-answer-key.md

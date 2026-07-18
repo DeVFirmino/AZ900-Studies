@@ -2,7 +2,7 @@
 
 A practical, scenario-focused study guide for the **AZ-900: Microsoft Azure Fundamentals** exam.
 
-> Status: work in progress. Cloud Concepts and Architecture and Services are ready; Management and Governance is scaffolded for the next study session.
+> Status: all three exam domains are covered. The guide is still being expanded with deeper explanations and additional practice scenarios.
 
 ## Why this repository exists
 
@@ -53,7 +53,21 @@ The goal is not to memorize product names. The goal is to understand **which Azu
 
 ### 03 — Azure Management and Governance
 
-[Open the section roadmap](docs/03-management-and-governance/index.md)
+1. [Cost factors and the Azure Pricing Calculator](docs/03-management-and-governance/01-cost-factors-and-pricing-calculator.md)
+2. [Microsoft Cost Management, budgets, and Cost Analysis](docs/03-management-and-governance/02-cost-management-budgets-and-analysis.md)
+3. [Tags and cost organization](docs/03-management-and-governance/03-tags-and-cost-organization.md)
+4. [Microsoft Purview](docs/03-management-and-governance/04-microsoft-purview.md)
+5. [Azure Policy and policy initiatives](docs/03-management-and-governance/05-azure-policy-and-initiatives.md)
+6. [Resource locks](docs/03-management-and-governance/06-resource-locks.md)
+7. [Azure portal, Cloud Shell, Azure CLI, and Azure PowerShell](docs/03-management-and-governance/07-portal-cloud-shell-cli-powershell.md)
+8. [Azure Arc](docs/03-management-and-governance/08-azure-arc.md)
+9. [Infrastructure as code, ARM templates, and Bicep](docs/03-management-and-governance/09-iac-arm-templates-and-bicep.md)
+10. [Azure Advisor](docs/03-management-and-governance/10-azure-advisor.md)
+11. [Azure Service Health](docs/03-management-and-governance/11-azure-service-health.md)
+12. [Azure Monitor, Log Analytics, alerts, and Application Insights](docs/03-management-and-governance/12-azure-monitor.md)
+13. [Exam cheat sheet](docs/03-management-and-governance/13-cheat-sheet.md)
+14. [Practice quiz](docs/03-management-and-governance/14-practice-quiz.md)
+15. [Answer key](docs/03-management-and-governance/15-answer-key.md)
 
 ## Seven-day plan
 
