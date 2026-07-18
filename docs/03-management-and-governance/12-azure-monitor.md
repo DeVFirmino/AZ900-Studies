@@ -192,7 +192,7 @@ Users report that checkout is slow, and developers need request traces and SQL d
 ## Official references
 
 - [Azure Monitor overview](https://learn.microsoft.com/azure/azure-monitor/fundamentals/overview)
-- [Azure Monitor data platform](https://learn.microsoft.com/azure/azure-monitor/fundamentals/data-platform-metrics)
+- [Azure Monitor Metrics overview](https://learn.microsoft.com/azure/azure-monitor/metrics/data-platform-metrics)
 - [Log Analytics overview](https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
 - [Azure Monitor alerts overview](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-overview)
 - [Application Insights overview](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview)
