@@ -1,0 +1,29 @@
+site_name: AZ-900 Study Guide
+site_description: A practical, scenario-focused Microsoft Azure Fundamentals study guide
+repo_url: https://github.com/DeVFirmino/AZ900-Studies
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Cloud Concepts:
+      - What is cloud computing?: 01-cloud-concepts/01-what-is-cloud-computing.md
+      - Cloud models and pricing: 01-cloud-concepts/02-cloud-models-and-pricing.md
+      - Cloud benefits and scaling: 01-cloud-concepts/03-cloud-benefits-and-scaling.md
+      - Shared responsibility: 01-cloud-concepts/04-shared-responsibility.md
+      - Service models and serverless: 01-cloud-concepts/05-service-models-and-serverless.md
+      - Global infrastructure: 01-cloud-concepts/06-global-infrastructure.md
+      - Resource hierarchy: 01-cloud-concepts/07-resource-hierarchy.md
+      - Exam cheat sheet: 01-cloud-concepts/08-cheat-sheet.md
+      - Practice quiz: 01-cloud-concepts/09-practice-quiz.md
+      - Answer key: 01-cloud-concepts/10-answer-key.md
+  - Architecture and Services: 02-architecture-and-services/index.md
+  - Management and Governance: 03-management-and-governance/index.md
