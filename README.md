@@ -75,7 +75,7 @@ All three exam domains are covered with detailed lessons, high-value comparisons
 
 </details>
 
-<details>
+<details open>
 <summary><strong>🏗️ 02 — Azure Architecture and Services</strong> · compute, networking, storage, identity, and security</summary>
 
 1. [Core architectural components](docs/02-architecture-and-services/01-core-architectural-components.md)
@@ -96,7 +96,7 @@ All three exam domains are covered with detailed lessons, high-value comparisons
 
 </details>
 
-<details>
+<details open>
 <summary><strong>🛡️ 03 — Azure Management and Governance</strong> · costs, governance, deployment, and monitoring</summary>
 
 1. [Cost factors and the Azure Pricing Calculator](docs/03-management-and-governance/01-cost-factors-and-pricing-calculator.md)
