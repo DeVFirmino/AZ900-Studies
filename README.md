@@ -1,33 +1,22 @@
 <div align="center">
 
-# ☁️ AZ-900 Microsoft Azure Fundamentals
+# AZ-900 Microsoft Azure Fundamentals
 
-### A practical, scenario-focused study guide for the AZ-900 exam
+**A practical, scenario-focused study guide for the AZ-900 exam**
 
 [![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/credentials/certifications/azure-fundamentals/)
 ![AZ-900](https://img.shields.io/badge/AZ--900-Fundamentals-005BA1?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![MkDocs](https://img.shields.io/badge/MkDocs-526CFE?style=for-the-badge&logo=materialformkdocs&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-Created with 💙 by **[Daniel Firmino](https://github.com/DeVFirmino)**
-
-</div>
-
-<div align="center">
-
-[![01 Cloud Concepts](https://img.shields.io/badge/01-Cloud_Concepts-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](docs/01-cloud-concepts/01-what-is-cloud-computing.md)
-[![02 Azure Architecture and Services](https://img.shields.io/badge/02-Architecture_%26_Services-0067B8?style=for-the-badge&logo=microsoftazure&logoColor=white)](docs/02-architecture-and-services/index.md)
-[![03 Azure Management and Governance](https://img.shields.io/badge/03-Management_%26_Governance-004E8C?style=for-the-badge&logo=microsoftazure&logoColor=white)](docs/03-management-and-governance/index.md)
+Created by **[Daniel Firmino](https://github.com/DeVFirmino)**
 
 </div>
 
 ---
 
-## 👋 Welcome!
+## About this guide
 
-I created this repository while preparing for the **Microsoft Azure Fundamentals (AZ-900)** exam.
-
-The goal is not simply to memorize Azure product names. It is to understand:
+I created this repository while preparing for the **Microsoft Azure Fundamentals (AZ-900)** exam. The goal is not simply to memorize Azure product names. It is to understand:
 
 - which Azure concept or service best fits a real scenario;
 - which keywords reveal what an exam question is asking;
@@ -36,31 +25,31 @@ The goal is not simply to memorize Azure product names. It is to understand:
 
 All three exam domains are covered with detailed lessons, high-value comparisons, cheat sheets, scenario-based quizzes, and explained answer keys.
 
-## 🧭 Choose your study path
-
-| Icon | Exam domain | Weight | Start here |
-|:---:|---|:---:|---|
-| ☁️ | **01 — Cloud Concepts** | 25–30% | [Start Cloud Concepts](docs/01-cloud-concepts/01-what-is-cloud-computing.md) |
-| 🏗️ | **02 — Azure Architecture and Services** | 35–40% | [Open the section roadmap](docs/02-architecture-and-services/index.md) |
-| 🛡️ | **03 — Azure Management and Governance** | 30–35% | [Open the section roadmap](docs/03-management-and-governance/index.md) |
-
-> [!IMPORTANT]
-> Azure services and exam objectives can change. Check the [official Microsoft Learn AZ-900 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-900) before scheduling your exam.
-
-## ✨ What you will find here
+**What you will find here:**
 
 - **Deep explanations** that build understanding instead of listing definitions.
 - **Scenario thinking** based on the style of questions used in the exam.
 - **Exam clues** that connect common keywords to likely answers.
 - **High-value comparisons** for services that are easy to confuse.
-- **Practice quizzes** with four choices for every question.
-- **Explained answers** so you understand every mistake.
+- **Practice quizzes** with four choices per question and **explained answers** so you understand every mistake.
 - **A local website** powered by MkDocs for a cleaner reading experience.
 
-## 📚 Complete study guide
+## Exam domains
 
-<details open>
-<summary><strong>☁️ 01 — Cloud Concepts</strong> · foundations, service models, responsibility, and Azure structure</summary>
+| Exam domain | Weight | Start here |
+|---|:---:|---|
+| **01 — Cloud Concepts** | 25–30% | [Start Cloud Concepts](docs/01-cloud-concepts/01-what-is-cloud-computing.md) |
+| **02 — Azure Architecture and Services** | 35–40% | [Open the section roadmap](docs/02-architecture-and-services/index.md) |
+| **03 — Azure Management and Governance** | 30–35% | [Open the section roadmap](docs/03-management-and-governance/index.md) |
+
+> [!IMPORTANT]
+> Azure services and exam objectives can change. Check the [official Microsoft Learn AZ-900 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-900) before scheduling your exam.
+
+## Complete study guide
+
+### 01 — Cloud Concepts
+
+Foundations, service models, shared responsibility, and Azure structure.
 
 1. [What is cloud computing?](docs/01-cloud-concepts/01-what-is-cloud-computing.md)
 2. [Cloud models and pricing](docs/01-cloud-concepts/02-cloud-models-and-pricing.md)
@@ -73,10 +62,9 @@ All three exam domains are covered with detailed lessons, high-value comparisons
 9. [Practice quiz](docs/01-cloud-concepts/09-practice-quiz.md)
 10. [Answer key](docs/01-cloud-concepts/10-answer-key.md)
 
-</details>
+### 02 — Azure Architecture and Services
 
-<details open>
-<summary><strong>🏗️ 02 — Azure Architecture and Services</strong> · compute, networking, storage, identity, and security</summary>
+Compute, networking, storage, identity, and security.
 
 1. [Core architectural components](docs/02-architecture-and-services/01-core-architectural-components.md)
 2. [Compute choices: VMs, containers, and functions](docs/02-architecture-and-services/02-compute-choices.md)
@@ -94,10 +82,9 @@ All three exam domains are covered with detailed lessons, high-value comparisons
 14. [Practice quiz](docs/02-architecture-and-services/14-practice-quiz.md)
 15. [Answer key](docs/02-architecture-and-services/15-answer-key.md)
 
-</details>
+### 03 — Azure Management and Governance
 
-<details open>
-<summary><strong>🛡️ 03 — Azure Management and Governance</strong> · costs, governance, deployment, and monitoring</summary>
+Costs, governance, deployment, and monitoring.
 
 1. [Cost factors and the Azure Pricing Calculator](docs/03-management-and-governance/01-cost-factors-and-pricing-calculator.md)
 2. [Microsoft Cost Management, budgets, and Cost Analysis](docs/03-management-and-governance/02-cost-management-budgets-and-analysis.md)
@@ -115,19 +102,17 @@ All three exam domains are covered with detailed lessons, high-value comparisons
 14. [Practice quiz](docs/03-management-and-governance/14-practice-quiz.md)
 15. [Answer key](docs/03-management-and-governance/15-answer-key.md)
 
-</details>
-
-## 🗓️ Seven-day study plan
+## Seven-day study plan
 
 | Day | Focus |
 |:---:|---|
-| **1–2** | ☁️ Cloud concepts, service models, shared responsibility, regions, zones, subscriptions, and resource groups |
-| **3–4** | 🏗️ Compute, networking, storage, and redundancy |
-| **5** | 🔐 Entra ID, authentication, RBAC, Zero Trust, and Defender for Cloud |
-| **6** | 🛡️ Policy, locks, ARM, command-line tools, cost management, Advisor, Monitor, and Service Health |
-| **7** | 🎯 Two different practice exams, error review, and the Microsoft Exam Sandbox |
+| **1–2** | Cloud concepts, service models, shared responsibility, regions, zones, subscriptions, and resource groups |
+| **3–4** | Compute, networking, storage, and redundancy |
+| **5** | Entra ID, authentication, RBAC, Zero Trust, and Defender for Cloud |
+| **6** | Policy, locks, ARM, command-line tools, cost management, Advisor, Monitor, and Service Health |
+| **7** | Two different practice exams, error review, and the Microsoft Exam Sandbox |
 
-## 💡 A study method that works
+## A study method that works
 
 1. Read one lesson without rushing.
 2. Explain the main concept in your own words.
@@ -136,9 +121,9 @@ All three exam domains are covered with detailed lessons, high-value comparisons
 5. Complete the quiz without opening the answer key.
 6. Review every mistake and revisit the related lesson.
 
-> **Exam mindset:** do not ask only “What does this service do?” Also ask “What requirement makes this service a better answer than the alternatives?”
+> **Exam mindset:** do not ask only "What does this service do?" Also ask "What requirement makes this service a better answer than the alternatives?"
 
-## 💻 Run the guide as a local website
+## Run the guide as a local website
 
 This repository includes an optional MkDocs configuration.
 
@@ -151,19 +136,17 @@ mkdocs serve
 
 Open the local address displayed in the terminal, usually `http://127.0.0.1:8000`.
 
-## 🤝 Contributing
+## Contributing
 
 Corrections, clearer explanations, new scenarios, and additional practice questions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
-## 👨‍💻 About the author
+## About the author
 
-Hi, I am **Daniel Firmino** — an IT professional learning Microsoft Azure and documenting the journey as clearly as possible.
-
-I built this guide to reinforce my own knowledge and to help other learners prepare without getting lost in disconnected product definitions. If it helps you, consider giving the repository a ⭐ or sharing it with another AZ-900 learner.
+Hi, I am **Daniel Firmino** — an IT professional learning Microsoft Azure and documenting the journey as clearly as possible. I built this guide to reinforce my own knowledge and to help other learners prepare without getting lost in disconnected product definitions. If it helps you, consider giving the repository a star or sharing it with another AZ-900 learner.
 
 - GitHub: **[@DeVFirmino](https://github.com/DeVFirmino)**
 - Project: **[AZ900-Studies](https://github.com/DeVFirmino/AZ900-Studies)**
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 This is an independent study resource created by Daniel Firmino. It is not affiliated with or endorsed by Microsoft. Azure product names, features, and exam objectives can change. Use Microsoft Learn as the source of truth.
