@@ -148,5 +148,5 @@ Security wants to discover how many storage accounts violate a new rule before e
 
 - [Azure Policy overview](https://learn.microsoft.com/azure/governance/policy/overview)
 - [Azure Policy effects](https://learn.microsoft.com/azure/governance/policy/concepts/effect-basics)
-- [Policy initiative definitions](https://learn.microsoft.com/azure/governance/policy/concepts/initiative-definition-structure-basics)
+- [Policy initiative definitions](https://learn.microsoft.com/azure/governance/policy/concepts/initiative-definition-structure)
 - [Remediate noncompliant resources](https://learn.microsoft.com/azure/governance/policy/how-to/remediate-resources)
