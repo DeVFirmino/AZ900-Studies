@@ -15,11 +15,22 @@
 13. **B — Elasticity.** Capacity follows temporary demand, often automatically.
 14. **C.** Deleting the group deletes its resources. The resources can use different regions, and groups cannot be nested.
 15. **A — Azure Functions/serverless.** Event-driven execution without server administration is the key clue.
+16. **A — Measured service.** Cloud providers meter consumption using units appropriate to each service. The meter is not necessarily the same for every service.
+17. **A — Private cloud.** It is dedicated to one organization while still providing cloud characteristics such as self-service and automation.
+18. **A — CapEx.** Physical assets purchased upfront are capital expenditure. Ongoing service consumption is commonly associated with OpEx.
+19. **A — Disaster recovery.** Cross-region recovery addresses a regional disaster. High availability usually focuses on minimizing interruption during ordinary/local failures.
+20. **A — Microsoft.** App Service is PaaS, so Microsoft operates and patches the underlying OS and managed runtime platform.
+21. **A — The customer.** SaaS transfers application operation to the provider, but the customer still manages identities, sharing, access decisions, and organizational data.
+22. **A.** A zonal VM resides in one selected zone. Resilience requires additional instances across zones or a zone-redundant service design.
+23. **A.** Region selection balances legal requirements, service/SKU availability, latency, resilience features, capacity, and cost.
+24. **A — Management group.** It provides governance scope above subscriptions. Assignments can flow to subscriptions and resources below it.
+25. **A.** The resource group's region stores its metadata. Resources inside the group can be deployed to other supported regions.
 
 ## Score guide
 
-- **13–15:** Strong. Explain every wrong option before moving on.
-- **10–12:** Review the comparisons behind the missed questions.
-- **0–9:** Revisit the concept pages, then retry without memorizing answer positions.
+- **22–25:** Strong. Explain every wrong option before moving on.
+- **18–21:** Good foundation. Review the comparisons behind missed questions.
+- **13–17:** Revisit the relevant full lessons, then try new scenarios.
+- **0–12:** Study the concept pages again before relying on the cheat sheet.
 
 A score from a repeated quiz can measure memory rather than understanding. Use different practice sets and explain the distractors aloud.

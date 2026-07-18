@@ -25,6 +25,10 @@
 | Apply governance to several subscriptions | Management group |
 | Billing, quota, and access boundary | Subscription |
 | Group resources with one lifecycle | Resource group |
+| Provider measures usage by service meters | Measured service / consumption model |
+| Minimize interruption during ordinary failures | High availability |
+| Recover in another region after major disruption | Disaster recovery |
+| Recover historical data after deletion or corruption | Backup |
 
 ## Three fast comparisons
 
@@ -39,12 +43,38 @@
 - **PaaS:** publish the application.
 - **SaaS:** use the software.
 
+```text
+IaaS → customer patches the guest OS
+PaaS → provider patches OS and managed runtime
+SaaS → provider operates the application
+
+All three → customer controls data, identities, and access decisions
+```
+
 ### Location
 
 - **Datacenter:** physical building.
 - **Availability zone:** isolated datacenter group inside a region.
 - **Region:** geographic deployment area.
 - **Region pair:** relationship used by some services; not automatic replication of everything.
+
+### Azure hierarchy
+
+```text
+Tenant          = identities
+Management group = govern subscriptions together
+Subscription    = billing, quotas, access scope
+Resource group  = lifecycle container
+Resource        = actual Azure service instance
+```
+
+### Availability
+
+- **One instance:** can remain a single point of failure.
+- **Multiple instances:** can protect against instance failure when traffic and state are designed correctly.
+- **Availability zones:** protect against zone-level failure inside a region.
+- **Multiple regions:** support regional disaster recovery.
+- **Backup:** preserves recoverable historical state; redundancy alone is not backup.
 
 ## Dangerous absolute words
 
@@ -55,3 +85,6 @@ Question statements containing **always**, **all**, **automatically**, or **guar
 - A region pair automatically replicates every resource.
 - One VM placed in a zone is automatically zone resilient.
 - A resource group's region forces all its resources into that region.
+- A private cloud is simply any virtualized server.
+- A subscription is an availability boundary.
+- Tags automatically flow to all child resources.

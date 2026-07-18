@@ -108,3 +108,73 @@ Choose the best answer before opening the [answer key](10-answer-key.md).
     - B. SaaS email
     - C. Private cloud
     - D. Scale up
+
+16. Which cloud characteristic means the provider records usage through meters such as compute time, stored capacity, or executions?
+
+    - A. Measured service
+    - B. Availability zone
+    - C. Private endpoint
+    - D. Resource lock
+
+17. An environment is dedicated to one organization and provides automated self-service provisioning. Which cloud model is it?
+
+    - A. Private cloud
+    - B. Public cloud only
+    - C. SaaS only
+    - D. Availability set
+
+18. Buying physical servers and cooling equipment before they are used is primarily which type of expenditure?
+
+    - A. CapEx
+    - B. OpEx
+    - C. Serverless execution
+    - D. Elasticity
+
+19. A workload must recover in another Azure region after a catastrophic regional outage. Which capability is emphasized?
+
+    - A. Disaster recovery
+    - B. Scale up
+    - C. Tag inheritance
+    - D. CapEx
+
+20. Who normally patches the operating system underneath Azure App Service?
+
+    - A. Microsoft, because App Service is PaaS
+    - B. The customer, because every cloud OS is customer-managed
+    - C. The application end user
+    - D. The customer's internet provider
+
+21. In a SaaS solution, who remains responsible for deciding which employees may access organizational data?
+
+    - A. The customer
+    - B. Microsoft alone
+    - C. The physical datacenter operator alone
+    - D. Nobody
+
+22. A single VM is pinned to Availability Zone 1. Which statement is correct?
+
+    - A. The VM is zonal but is not automatically resilient to failure of Zone 1
+    - B. Azure automatically copies the VM to every other zone
+    - C. The VM is automatically replicated to a paired region
+    - D. Availability zones are different subscriptions
+
+23. Which should be considered when selecting an Azure region?
+
+    - A. Compliance, service availability, latency, resilience, and cost
+    - B. Only the alphabetical order of region names
+    - C. Only the portal language
+    - D. The user's password length
+
+24. An organization wants one Policy assignment to govern production subscriptions across several departments. Which scope fits best?
+
+    - A. Management group
+    - B. One individual VM
+    - C. Availability zone
+    - D. Datacenter rack
+
+25. Which statement about a resource group's location is correct?
+
+    - A. It stores resource-group metadata; contained resources can use other regions
+    - B. It forces every contained resource into that location
+    - C. It automatically creates a paired resource group
+    - D. It controls user authentication
