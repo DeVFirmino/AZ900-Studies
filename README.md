@@ -2,7 +2,7 @@
 
 A practical, scenario-focused study guide for the **AZ-900: Microsoft Azure Fundamentals** exam.
 
-> Status: work in progress. The Cloud Concepts section is ready; Architecture and Services and Management and Governance are scaffolded for the next study sessions.
+> Status: work in progress. Cloud Concepts and Architecture and Services are ready; Management and Governance is scaffolded for the next study session.
 
 ## Why this repository exists
 
@@ -35,7 +35,21 @@ The goal is not to memorize product names. The goal is to understand **which Azu
 
 ### 02 — Azure Architecture and Services
 
-[Open the section roadmap](docs/02-architecture-and-services/index.md)
+1. [Core architectural components](docs/02-architecture-and-services/01-core-architectural-components.md)
+2. [Compute choices: VMs, containers, and functions](docs/02-architecture-and-services/02-compute-choices.md)
+3. [VM options and required resources](docs/02-architecture-and-services/03-vm-options.md)
+4. [Application hosting: Web Apps, containers, and virtual machines](docs/02-architecture-and-services/04-application-hosting.md)
+5. [Virtual networking: VNets, subnets, peering, DNS, VPN, and ExpressRoute](docs/02-architecture-and-services/05-virtual-networking.md)
+6. [Public and private endpoints](docs/02-architecture-and-services/06-public-and-private-endpoints.md)
+7. [Azure Storage services and account types](docs/02-architecture-and-services/07-azure-storage-services.md)
+8. [Storage tiers and redundancy](docs/02-architecture-and-services/08-storage-tiers-and-redundancy.md)
+9. [File movement and migration tools](docs/02-architecture-and-services/09-file-movement-and-migration.md)
+10. [Microsoft Entra ID and Domain Services](docs/02-architecture-and-services/10-microsoft-entra-id.md)
+11. [Authentication: SSO, MFA, passwordless, and Conditional Access](docs/02-architecture-and-services/11-authentication.md)
+12. [Authorization and security: RBAC, Zero Trust, defense in depth, and Defender for Cloud](docs/02-architecture-and-services/12-authorization-and-security.md)
+13. [Exam cheat sheet](docs/02-architecture-and-services/13-cheat-sheet.md)
+14. [Practice quiz](docs/02-architecture-and-services/14-practice-quiz.md)
+15. [Answer key](docs/02-architecture-and-services/15-answer-key.md)
 
 ### 03 — Azure Management and Governance
 

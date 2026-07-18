@@ -25,5 +25,21 @@ nav:
       - Exam cheat sheet: 01-cloud-concepts/08-cheat-sheet.md
       - Practice quiz: 01-cloud-concepts/09-practice-quiz.md
       - Answer key: 01-cloud-concepts/10-answer-key.md
-  - Architecture and Services: 02-architecture-and-services/index.md
+  - Architecture and Services:
+      - Section overview: 02-architecture-and-services/index.md
+      - Core architectural components: 02-architecture-and-services/01-core-architectural-components.md
+      - Compute choices: 02-architecture-and-services/02-compute-choices.md
+      - VM options and resources: 02-architecture-and-services/03-vm-options.md
+      - Application hosting: 02-architecture-and-services/04-application-hosting.md
+      - Virtual networking: 02-architecture-and-services/05-virtual-networking.md
+      - Public and private endpoints: 02-architecture-and-services/06-public-and-private-endpoints.md
+      - Azure Storage services: 02-architecture-and-services/07-azure-storage-services.md
+      - Storage tiers and redundancy: 02-architecture-and-services/08-storage-tiers-and-redundancy.md
+      - File movement and migration: 02-architecture-and-services/09-file-movement-and-migration.md
+      - Microsoft Entra ID: 02-architecture-and-services/10-microsoft-entra-id.md
+      - Authentication: 02-architecture-and-services/11-authentication.md
+      - Authorization and security: 02-architecture-and-services/12-authorization-and-security.md
+      - Exam cheat sheet: 02-architecture-and-services/13-cheat-sheet.md
+      - Practice quiz: 02-architecture-and-services/14-practice-quiz.md
+      - Answer key: 02-architecture-and-services/15-answer-key.md
   - Management and Governance: 03-management-and-governance/index.md
