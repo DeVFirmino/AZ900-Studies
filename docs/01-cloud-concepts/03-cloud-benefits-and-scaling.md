@@ -46,11 +46,100 @@ Clue: **add or remove instances**.
 - High availability focuses on uptime; disaster recovery focuses on restoring service after a major failure.
 - Reliability can use availability, redundancy, backup, and recovery, but these terms are not interchangeable.
 
+## High availability and SLA thinking
+
+High availability is an architectural outcome, not simply a product name.
+
+Common techniques include:
+
+- multiple application instances;
+- load balancing;
+- availability zones;
+- health probes and automatic failover;
+- redundant data copies;
+- removal of single points of failure.
+
+An SLA is a provider commitment for a defined service configuration and measurement period. It does not guarantee that the entire application meets the same percentage.
+
+If an application depends on several components, its end-to-end availability depends on the architecture and on how those dependencies behave together.
+
+**Exam trap:** placing one VM in one availability zone does not make the application zone-resilient. The workload needs redundant instances or a zone-redundant service.
+
+## Scalability versus performance
+
+Scaling adds capacity, but it does not automatically repair inefficient code or a database bottleneck.
+
+Before scaling, identify the limiting component:
+
+```text
+High CPU on one VM       → scale up or optimize
+Too many web requests    → scale out behind load balancing
+Database connection cap → scale database or redesign access
+Temporary demand spike  → autoscale / elasticity
+```
+
+Every resource has service limits and quotas. A theoretically scalable architecture can still fail to scale if quota, regional capacity, dependencies, or application design impose a limit.
+
+## Reliability, resilience, and disaster recovery
+
+| Concept | Focus | Example |
+|---|---|---|
+| Reliability | System performs correctly over time | Redundant components and tested recovery |
+| Resilience | Withstand and recover from failure | Fail over when one zone becomes unavailable |
+| High availability | Minimize service interruption | Multiple healthy instances serve traffic |
+| Disaster recovery | Restore after major disruption | Recover workload in another region |
+| Backup | Recover data from a point in time | Restore a deleted or corrupted database |
+
+Redundancy is not automatically backup. A deletion or corruption can replicate to redundant copies, while backup preserves recoverable historical state.
+
+## Predictability in practice
+
+### Performance predictability
+
+Use service tiers, capacity planning, monitoring, load tests, and autoscale rules to understand expected behavior under load.
+
+### Cost predictability
+
+Use the Pricing Calculator before deployment, then budgets, Cost Analysis, tags, and forecasts during operation.
+
+Predictability does not mean price or performance can never change. It means teams have tools and models to plan and observe them.
+
+## Security and governance benefits
+
+Cloud platforms provide built-in capabilities such as centralized identity, encryption options, Policy, Defender for Cloud, monitoring, and physical datacenter security.
+
+These capabilities create a strong foundation, but the customer must select, configure, and operate them according to the shared responsibility model.
+
+## Manageability: of the cloud and in the cloud
+
+### Management of the cloud
+
+Capabilities built into services:
+
+- autoscaling;
+- health monitoring;
+- templates and automation;
+- backup and recovery options;
+- automatic platform maintenance for managed services.
+
+### Management in the cloud
+
+Ways administrators control Azure:
+
+- portal;
+- CLI and PowerShell;
+- Cloud Shell;
+- APIs and SDKs;
+- ARM templates and Bicep.
+
 ## Exam traps
 
 - Increasing a VM from 4 to 16 vCPUs is **scale up**, not scale out.
 - Adding identical VMs is **scale out**, not scale up.
 - Autoscaling can help performance and cost, but it does not guarantee that an application is highly available.
+- Redundant storage is not the same as backup.
+- An SLA for one component is not automatically the SLA for the whole application.
+- Scale out requires the application to work correctly across multiple instances.
 
 ## Official reference
 
