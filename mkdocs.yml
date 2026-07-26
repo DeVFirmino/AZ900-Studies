@@ -1,4 +1,5 @@
 site_name: AZ-900 Study Guide
+site_url: https://devfirmino.github.io/AZ900-Studies/
 site_description: A practical, scenario-focused Microsoft Azure Fundamentals study guide
 repo_url: https://github.com/DeVFirmino/AZ900-Studies
 theme:
