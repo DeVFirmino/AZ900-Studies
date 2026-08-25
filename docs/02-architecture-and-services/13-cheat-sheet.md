@@ -19,9 +19,20 @@
 | Container orchestration at scale | Azure Kubernetes Service |
 | Isolated private network in Azure | Virtual Network |
 | Connect two Azure VNets privately | VNet peering |
+| Reach a third VNet through a peered VNet | Not possible; peering is not transitive |
+| Rule-based traffic filtering on a subnet or NIC, at no cost | Network security group |
+| Managed, centralized filtering with FQDN rules and threat intelligence | Azure Firewall |
 | Encrypted hybrid link over the public internet | VPN Gateway |
+| A single remote device connecting to a VNet | Point-to-site VPN |
+| An entire office network connecting to a VNet | Site-to-site VPN |
 | Private hybrid link avoiding the public internet | ExpressRoute |
 | Encryption over ExpressRoute | Configure MACsec or IPsec; it is not encrypted by default |
+| Distribute non-HTTP traffic across VMs in a region | Azure Load Balancer |
+| Route web traffic by URL path | Application Gateway |
+| Block SQL injection and cross-site scripting | Web application firewall on Application Gateway or Front Door |
+| Global HTTP entry point across regions | Azure Front Door |
+| RDP or SSH to a VM with no public IP | Azure Bastion |
+| Absorb volumetric attacks against your public IPs | Azure DDoS Protection |
 | PaaS service with private IP in your VNet | Private endpoint |
 | Objects such as images, video, and backups | Blob Storage |
 | Managed SMB/NFS file share | Azure Files |
@@ -46,7 +57,7 @@
 | Security posture and threat protection | Microsoft Defender for Cloud |
 | Government-specific isolated Azure environment | Sovereign cloud |
 
-## Three fast comparisons
+## Four fast comparisons
 
 ### Compute
 
@@ -58,6 +69,13 @@
 
 - **VPN Gateway:** encrypted traffic over the public internet.
 - **ExpressRoute:** private dedicated connection; not encrypted by default.
+
+### Traffic distribution
+
+- **Load Balancer:** Layer 4, regional, any TCP/UDP traffic.
+- **Application Gateway:** Layer 7, regional, URL-based routing plus optional WAF.
+- **Front Door:** Layer 7, global.
+- **Traffic Manager:** DNS-based, global.
 
 ### Identity versus access
 
@@ -72,4 +90,6 @@ Watch for **always**, **automatically**, **guarantees**, and **all**. Common fal
 - Archive blobs are instantly readable.
 - RBAC replaces MFA.
 - ExpressRoute and VPN Gateway are interchangeable.
+- A network security group and Azure Firewall provide the same protection.
+- VNet peering automatically connects every VNet in the chain.
 - A storage account redundancy option alone replaces application disaster recovery.

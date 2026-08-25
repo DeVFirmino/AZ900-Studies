@@ -8,7 +8,7 @@ This domain currently represents **35–40%** of the AZ-900 exam. It is the larg
 2. [Compute choices: VMs, containers, and functions](02-compute-choices.md)
 3. [VM options and required resources](03-vm-options.md)
 4. [Application hosting: Web Apps, containers, and virtual machines](04-application-hosting.md)
-5. [Virtual networking: VNets, subnets, peering, DNS, VPN, and ExpressRoute](05-virtual-networking.md)
+5. [Azure networking: VNets, connectivity, security, and traffic distribution](05-virtual-networking.md)
 6. [Public and private endpoints](06-public-and-private-endpoints.md)
 7. [Azure Storage services and account types](07-azure-storage-services.md)
 8. [Storage tiers and redundancy](08-storage-tiers-and-redundancy.md)
@@ -30,6 +30,9 @@ This domain currently represents **35–40%** of the AZ-900 exam. It is the larg
 | Isolated private network in Azure | Virtual Network |
 | Encrypted hybrid connection over the public internet | VPN Gateway |
 | Private hybrid connection that avoids the public internet | ExpressRoute |
+| Rule-based traffic filtering on a subnet | Network security group |
+| Route web traffic by URL path, or block web attacks | Application Gateway, with WAF |
+| RDP or SSH to a VM with no public IP | Azure Bastion |
 | Objects such as images, video, and backups | Blob Storage |
 | Managed SMB/NFS file share | Azure Files |
 | Identity directory | Microsoft Entra ID |

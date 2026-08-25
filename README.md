@@ -70,7 +70,7 @@ Compute, networking, storage, identity, and security.
 2. [Compute choices: VMs, containers, and functions](docs/02-architecture-and-services/02-compute-choices.md)
 3. [VM options and required resources](docs/02-architecture-and-services/03-vm-options.md)
 4. [Application hosting: Web Apps, containers, and virtual machines](docs/02-architecture-and-services/04-application-hosting.md)
-5. [Virtual networking: VNets, subnets, peering, DNS, VPN, and ExpressRoute](docs/02-architecture-and-services/05-virtual-networking.md)
+5. [Azure networking: VNets, connectivity, security, and traffic distribution](docs/02-architecture-and-services/05-virtual-networking.md)
 6. [Public and private endpoints](docs/02-architecture-and-services/06-public-and-private-endpoints.md)
 7. [Azure Storage services and account types](docs/02-architecture-and-services/07-azure-storage-services.md)
 8. [Storage tiers and redundancy](docs/02-architecture-and-services/08-storage-tiers-and-redundancy.md)
