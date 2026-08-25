@@ -13,6 +13,11 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
   - Cloud Concepts:
@@ -32,7 +37,7 @@ nav:
       - Compute choices: 02-architecture-and-services/02-compute-choices.md
       - VM options and resources: 02-architecture-and-services/03-vm-options.md
       - Application hosting: 02-architecture-and-services/04-application-hosting.md
-      - Virtual networking: 02-architecture-and-services/05-virtual-networking.md
+      - Networking, security, and traffic: 02-architecture-and-services/05-virtual-networking.md
       - Public and private endpoints: 02-architecture-and-services/06-public-and-private-endpoints.md
       - Azure Storage services: 02-architecture-and-services/07-azure-storage-services.md
       - Storage tiers and redundancy: 02-architecture-and-services/08-storage-tiers-and-redundancy.md
