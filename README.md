@@ -16,12 +16,8 @@ Created by **[Daniel Firmino](https://github.com/DeVFirmino)**
 
 ## About this guide
 
-I created this repository while preparing for the **Microsoft Azure Fundamentals (AZ-900)** exam. The goal is not simply to memorize Azure product names. It is to understand:
-
-- which Azure concept or service best fits a real scenario;
-- which keywords reveal what an exam question is asking;
-- why the correct answer is the best choice; and
-- why the other options are wrong.
+Choose an Azure service for each scenario, then check the answer. The
+explanations walk through the question and the alternatives.
 
 All three exam domains are covered with detailed lessons, high-value comparisons, cheat sheets, scenario-based quizzes, and explained answer keys.
 
