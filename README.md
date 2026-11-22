@@ -16,8 +16,7 @@ Created by **[Daniel Firmino](https://github.com/DeVFirmino)**
 
 ## About this guide
 
-Choose an Azure service for each scenario, then check the answer. The
-explanations walk through the question and the alternatives.
+Work through the scenario questions, then check your reasoning against the answer key.
 
 All three exam domains are covered with detailed lessons, high-value comparisons, cheat sheets, scenario-based quizzes, and explained answer keys.
 
